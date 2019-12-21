@@ -8,7 +8,7 @@ A baseline SARIMA model was used to forecast the electricity load for a single b
 
 The mean absolute percent error was calculated for all buildings' forecasts, and then a new model was created that included exogenous variables (specifically for holidays, i.e. whether a day was a holiday or not). Mean absolute percent errors were re-calculated and compared to the first models' MAPE's.  Finally, the best model was selected for each building.
 
-All relevant information was exported to Tableau to display the forecasts in a dashboard.
+All relevant information was exported to Tableau to display the forecasts in a dashboard (see "Load_Forecasting_Dashboard.twb" in Presentation folder).
 
 
 ### Jupyter Notebook Organization/Project Process
