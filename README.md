@@ -10,6 +10,8 @@ The mean absolute percent error was calculated for all buildings' forecasts, and
 
 All relevant information was exported to Tableau to display the forecasts in a dashboard (see "Load_Forecasting_Dashboard.twb" in Presentation folder).
 
+See blog post published on Towards Data Science for more details (along with the notebooks listed in the outline below): [Time Series Forecasting with a SARIMA Model] (https://towardsdatascience.com/time-series-forecasting-with-a-sarima-model-db051b7ae459)
+
 
 ### Jupyter Notebook Organization/Project Process
 
