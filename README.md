@@ -2,7 +2,7 @@
 
 For this project, three years of hourly electricity load data was scraped from the UC Berkeley open data source and used to forecast a month of electricity use for over 70 buildings on the UC Berkeley campus.
 
-The electricity data was collected for days from January 2016 through November 2019. The dataset was split into training and test sets, missing data was imputed, then the hourly data was summed into daily observations.
+The electricity data was collected for days between January 2016 and November 2019. The dataset was split into training and test sets, missing data was imputed, then the hourly data was summed into daily observations.
 
 A baseline SARIMA model was used to forecast the electricity load for a single building for November 2019. ACF and PACF plots were used in addition to a GridSearch to find the ideal parameters for the SARIMA model. The model was validated through both train-test split validation and walk forward validation.  Then, the model was applied to the rest of the buildings.
 
